@@ -52,7 +52,8 @@ Split and merge HSV Image
     cv2.destroyAllWindows()
 ```
 ##OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/57106508-8b0f-4e2a-a118-3172d3eb6751)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/b42d4e70-1867-4fd6-b030-07de8cdf9efd)
 
 <br>
 <br>
@@ -64,7 +65,8 @@ Split and merge HSV Image
     cv2.imwrite('demos.jpg',image)
 ```
 ##OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/e30d6450-e4fb-4138-8c47-513ca7cebc17)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/6ee8338e-ec91-40f8-9f97-2513f7c1a690)
 
 <br>
 <br>
@@ -76,6 +78,7 @@ Split and merge HSV Image
     print(image.shape)
 ```
 ##OUTPUT:
+
 ![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/be0229d5-68c0-4268-a6d2-c60d8c4b4297)
 
 <br>
@@ -97,7 +100,8 @@ Split and merge HSV Image
     cv2.destroyAllWindows()
 ```
 ## OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/1152ea66-a9a7-45c2-8ff5-f5da6d16c998)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/b98721e1-ab5e-492d-bb22-dfb8d29864f1)
 
 <br>
 <br>
@@ -114,7 +118,8 @@ Split and merge HSV Image
   cv2.destroyAllWindows()
 ```
 ## OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/f0b78eca-5b3b-4b8f-9d3d-bdb347516790)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/c8d0a661-6341-4849-8ecf-1510c91587f6)
 
 <br>
 <br>
@@ -142,7 +147,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## OUTPUT:
+
 ![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/8e9c4d1f-925a-4fc5-9282-24dc68c23355)
+
 <br>
 <br>
 
@@ -165,6 +172,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## OUTPUT:
+
 ![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/7335c0ad-3393-4d8a-93e0-a52e2e17855e)
 
 <br>
@@ -186,8 +194,9 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-##OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/d43afc46-1f4e-493c-a59b-8d543b6ea8d1)
+## OUTPUT:
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/aee3f2d8-ee30-495f-b27c-eac62f0c7f7e)
 
 <br>
 <br>
@@ -195,7 +204,7 @@ cv2.destroyAllWindows()
 ### ix) Split and merge RGB Image
 ```
 import cv2
-img = cv2.imread('blue.jpg',1)
+img = cv2.imread('dog.jpg',1)
 img = cv2.resize(img,(200,200))
 
 R = img[:,:,2]
@@ -213,7 +222,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/6d589a2d-9108-4948-886f-9502e91f5914)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/fee596fe-37b3-47d3-87ba-9833350e2a5b)
 
 <br>
 <br>
@@ -221,7 +231,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```
 import cv2
-img = cv2.imread("blue.jpg",1)
+img = cv2.imread("dog.jpg",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -238,20 +248,11 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## OUTPUT:
-![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/ad90cd24-1216-4eea-bba9-310f6ed22b65)
+
+![image](https://github.com/JoyceBeulah/COLOR_CONVERSIONS_OF-IMAGE/assets/118343698/cad57e9e-4776-4d87-855c-ecaf537c9750)
 
 <br>
 <br>
-
-
-
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
-
-
-
-
-
-
-
